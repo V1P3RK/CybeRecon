@@ -90,15 +90,16 @@ except:
 print(colored(f"Adresse IP locale : {local_ip}", 'cyan'))
 print(colored(f"Adresse IP publique : {public_ip}", 'cyan'))
 print(colored(f"Localisation (Pays) : {location}", 'cyan'))
-    # Affiche le menu principal
-    print("""Choisir une catégorie:
-            1 - Reconnaissance
-            2 - Enumeration
-            3 - Scanning & Exploitation
-            4 - Recherche Exploits
-            5 - Aide
-            6 - Quitter
-            """)
+
+# Affiche le menu principal
+print("""Choisir une catégorie:
+        1 - Reconnaissance
+        2 - Enumeration
+        3 - Scanning & Exploitation
+        4 - Recherche Exploits
+        5 - Aide
+        6 - Quitter
+        """)
     option = input("Option: ")
 
     if option == "1": # Reconnaissance - menu 1.x       
